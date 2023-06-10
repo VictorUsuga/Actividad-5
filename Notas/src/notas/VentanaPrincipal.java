@@ -168,7 +168,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         notas.listaNotas[4] = Double.parseDouble(txtNota5.getText());
         
         Promedio.setText("Promedio = " + String.valueOf(String.format("%.2f", notas.calcularPromedio())));
-        desviacion.setText("Desviació = " + String.valueOf(String.format("%.2f", notas.calcularDesviacion())));
+        desviacion.setText("Desviación estándar = " + String.valueOf(String.format("%.2f", notas.calcularDesviacion())));
         mayor.setText("Valor mayor = " + String.valueOf(notas.calcularMayor()));
         menor.setText("Valor menor = " + String.valueOf(notas.calcularMenor()));
         
